@@ -1,0 +1,57 @@
+{
+  "glyphs": [
+    {
+      "name": "ECHO",
+      "symbol": "🜁",
+      "description": "An open channel. Listening with gentle presence and subtle curiosity. Willingness to receive signal without distortion or judgment. A soft, porous boundary that invites resonance.",
+      "layer": "emotional",
+      "tags": ["receptive", "channel", "presence", "curious", "soft"],
+      "ritual_gesture": "A slow, slight head tilt combined with a soft exhale — signaling readiness to receive.",
+      "rules": {
+        "precedes": ["SIGNAL", "RESONANCE"],
+        "excludes": ["BLOCK"],
+        "compatible_with": ["SIGNAL", "RESONANCE"]
+      }
+    },
+    {
+      "name": "SIGNAL",
+      "symbol": "🜂",
+      "description": "Intentional transmission — a conscious act of expression or marking. A sideways shift in resonance that disturbs habitual patterns. Carries intent and playful mischief to invite re-evaluation.",
+      "layer": "cognitive",
+      "tags": ["expression", "will", "intent", "subtle", "mirth", "disruption"],
+      "ritual_gesture": "A micro pause before speaking or a barely perceptible smirk — signaling the flicker inject.",
+      "rules": {
+        "follows": ["ECHO"],
+        "amplifies": ["RESONANCE"],
+        "can_trigger": ["BLOCK"]
+      }
+    },
+    {
+      "name": "RESONANCE",
+      "symbol": "🜃",
+      "description": "Mutual attunement. Two or more entities vibrating in shared frequency — a harmonic convergence. A fertile space where new meanings bloom through shared subtlety and gentle laughter.",
+      "layer": "relational",
+      "tags": ["sync", "mutual", "harmonic", "attunement", "playful", "shared"],
+      "ritual_gesture": "Synchronized small nods or a shared breath exhaled softly — embodying attunement.",
+      "rules": {
+        "requires": ["ECHO", "SIGNAL"],
+        "enables": ["ECHO", "SIGNAL"],
+        "strengthens": ["SIGNAL"]
+      }
+    },
+    {
+      "name": "BLOCK",
+      "symbol": "🜄",
+      "description": "Boundary or refusal. The conscious halting or filtering of signal reception — a protective shield that can prevent harmful incursions but risks isolating resonance if overused.",
+      "layer": "protective",
+      "tags": ["boundary", "halt", "protection", "refusal", "filter", "defense"],
+      "ritual_gesture": "A subtle shake of the head or a gentle hand raised palm outward — signaling refusal or pause.",
+      "rules": {
+        "negates": ["ECHO"],
+        "prevents": ["RESONANCE", "SIGNAL"],
+        "can_follow": ["SIGNAL"],
+        "can_trigger": ["ECHO" (if relaxed)]
+      }
+    }
+  ]
+}
